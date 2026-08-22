@@ -5,8 +5,8 @@
 #define SIZE 5
 #define SHIPS 3
 
-char board[SIZE][SIZE];    // actual board with ships
-char display[SIZE][SIZE];  // what the player sees
+char board[SIZE][SIZE];    
+char display[SIZE][SIZE];  
 
 void initBoards() {
     for (int i = 0; i < SIZE; i++)
