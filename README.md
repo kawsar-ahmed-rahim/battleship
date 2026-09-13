@@ -99,7 +99,7 @@ The original program looped through one long-running process: place the ships on
 
 ## 🔗 Live Demo
 
-👉 **Live Website:** _add your Vercel URL here after deploying_
+👉 **Live Website:** https://battleship-murex-pi.vercel.app/
 
 ---
 
