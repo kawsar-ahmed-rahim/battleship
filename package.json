@@ -1,0 +1,14 @@
+{
+  "name": "battleship-web",
+  "version": "1.0.0",
+  "description": "Browser interface for a C battleship game, served via a Node backend",
+  "main": "server.js",
+  "scripts": {
+    "build:c": "gcc -o battleship battleship.c",
+    "vercel-build": "gcc -o battleship battleship.c",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
